@@ -48,18 +48,41 @@ article {
 
 article h1 {
     font-size: 3.2em;
-    margin: 5px;
+    font-weight: 700;
 }
 
 article h2 {
     font-size: 1.8em;
-    margin: 5px;
+    margin: 10px;
 }
 
 article h4 {
     font-size: 1.3em;
     color: #616165;
     margin: 10px;
+}
+
+.announcement {
+    background-color: black;
+    color: white;
+    padding: 90px;
+}
+
+.announcement button {
+    margin: 20px;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background: linear-gradient(black, black) padding-box,
+                linear-gradient(to right, #e65840, #d124af, #286af5) border-box;
+    color: white;
+}
+
+.announcement button:hover {
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(white, white) border-box;
+    color: black;
 }
 
 .product_large {
