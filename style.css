@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -7,7 +14,6 @@ nav ul {
     padding-bottom: 7px;
     max-width: 1400px;
     
-
 }
 
 nav ul li a {
@@ -34,4 +40,50 @@ header {
 
 a{
     text-align: none;
+}
+
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article h1 {
+    font-size: 3.2em;
+    margin: 5px;
+}
+
+article h2 {
+    font-size: 1.8em;
+    margin: 5px;
+}
+
+article h4 {
+    font-size: 1.3em;
+    color: #616165;
+    margin: 10px;
+}
+
+.product_large {
+    background-color: black;
+    color: white;
+    margin-top: 12px;
+    padding: 20px;
+}
+
+.product_large p {
+    margin-top: 16px;
+}
+
+.product_large a {
+    margin: 30px;
+    color: #2589e8;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.product_large a:hover {
+    text-decoration: underline;
 }
