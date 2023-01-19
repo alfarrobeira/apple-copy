@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,6 @@
     font-weight: 500;
 }
 
-<<<<<<< Updated upstream
-=======
 nav ul {
     list-style: none;
     margin: 0;
@@ -40,7 +39,6 @@ a {
     text-align: none;
 }
 
->>>>>>> Stashed changes
 article {
     width: 100%;
     display: flex;
@@ -84,8 +82,6 @@ article h4 {
 
 .product_large a:hover {
     text-decoration: underline;
-<<<<<<< Updated upstream
-=======
 }
 
 footer {
@@ -96,7 +92,6 @@ footer {
     color: rgb(138, 135, 135);
     font-size: small;
     text-align: justify;
-
 }
 
 .Footer {
@@ -128,5 +123,16 @@ footer {
 
 .shopping-way a {
     color: rgb(40, 40, 124);
->>>>>>> Stashed changes
+}
+
+.copyright a {
+    color: rgb(100, 99, 99);
+}
+
+.horizontal {
+    color: rgb(93, 90, 90);
+}
+
+.shopping-way a {
+    color: rgb(40, 40, 124);
 }
