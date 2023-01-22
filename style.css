@@ -2,7 +2,8 @@ html {
     font-size: 10px;
 }
  
- footer {
+
+footer {
     background-color: hsl(0, 0%, 98%);
     font-family: inherit;
     padding: 0;
@@ -10,8 +11,8 @@ html {
     color: rgb(138, 135, 135);
     font-size: small;
     text-align: justify;
-    
 }
+
 .Footer {
     padding-left: 15rem;      
     padding-right: 15rem;
@@ -20,6 +21,7 @@ padding-right: 150px; */
 }
 
 /*.list  {
+.list ul li {
     display: inline-block;
     padding: 0 5px;
     color: black;
@@ -38,9 +40,7 @@ padding-right: 150px; */
     padding-bottom: 2rem;
     font-size: small;
     position: static;  
-    padding-right: 150px; */
-    
-
+    padding-right: 150px; */  
 }
  .list a {      
     color: rgb(113, 108, 108);
@@ -59,8 +59,6 @@ padding-right: 150px; */
     display: inline-flex; */
     margin: 0px 2px  6px 2px;
     padding: 5px 0;
-
-
    }
 .footer-col1 ul li {
 list-style: none;
@@ -91,7 +89,7 @@ padding: 3px 0;
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 5px 0;
+    padding: 2rem 0;
 } 
 hr {
     color: rgb(100, 99, 99);
@@ -99,6 +97,7 @@ hr {
 .shopping-way a {
     color: rgb(40, 40, 124);
 }
+
 .copyright a {
     color: rgb(100, 99, 99);
     padding: 1rem 2rem; 
