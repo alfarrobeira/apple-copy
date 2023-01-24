@@ -1,36 +1,106 @@
 
- footer {
+
+html {
+    font-size: 10px;
+}
+ 
+
+footer {
     background-color: hsl(0, 0%, 98%);
-    font-family: Helvetica, sans-serif;
+    font-family: inherit;
     padding: 0;
     margin: 0;
     color: rgb(138, 135, 135);
     font-size: small;
     text-align: justify;
-    
 }
+
 .Footer {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 15rem;      
+    padding-right: 15rem;
+    /*padding-left: 150px;
+padding-right: 150px; */
 }
+
+/*.list  {
 .list ul li {
     display: inline-block;
     padding: 0 5px;
     color: black;
+} */
+.list  {
+    font-family: inherit;
+    display: grid;
+    width: 100%;
+    height: 40rem;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0 0 4rem 0 ;
+    padding: 4px 0 2rem;
+   /* color: rgb(11, 9, 9); 
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: small;
+    position: static;  
+    padding-right: 150px; */  
 }
+ .list a {      
+    color: rgb(113, 108, 108);
+    padding: 0.2rem 0;
+    flex-wrap: wrap;   
+ /*padding-bottom: 2px;
+    text-align: center;
+    display: inline-block; */
+    }
+   
+ #footer-col {
+    color: black; 
+    /*padding: 5px 14px;
+    padding: 2 15px;
+    text-align: center; 
+    display: inline-flex; */
+    margin: 0px 2px  6px 2px;
+    padding: 5px 0;
+   }
+.footer-col1 ul li {
+list-style: none;
+padding: 3px 0;
+}
+.footer-col2 ul li {
+    list-style: none;
+    padding: 3px 0;
+    }
+.footer-col3 ul li {
+    list-style: none;
+    padding: 3px 0;
+ }
+ .footer-col4 ul li {
+    list-style: none;
+    padding: 3px 0;
+    }
+.footer-col5 ul li {
+        list-style: none;
+        padding: 3px 0;
+        } 
+
 .paragraph a {
     color: rgb(113, 108, 108);
 }
 
 .copyright {
     display: flex;
-}
-.copyright a  {
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem 0;
+} 
+hr {
     color: rgb(100, 99, 99);
-}
-.horizontal {
-    color: rgb(93, 90, 90);
 }
 .shopping-way a {
     color: rgb(40, 40, 124);
 }
+
+.copyright a {
+    color: rgb(100, 99, 99);
+    padding: 1rem 2rem; 
+} 
